@@ -17,8 +17,9 @@ app.add_middleware(
 )
 
 # MongoDB connection
-MONGO_URI = "mongodb+srv://shantanur03:shantanur03@cc208.3s0dk.mongodb.net/"
-client = AsyncIOMotorClient(MONGO_URI)
+client = AsyncIOMotorClient("mongodb://shantanur03:shantanur03@13.232.136.252:27017/?ssl=true&retryWrites=true&w=majority")
+# MONGO_URI = "mongodb+srv://shantanur03:shantanur03@cc208.3s0dk.mongodb.net/"
+# client = AsyncIOMotorClient(MONGO_URI)
 db = client['CC208']
 
 class Question(BaseModel):
