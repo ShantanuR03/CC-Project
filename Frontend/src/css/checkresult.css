@@ -1,0 +1,29 @@
+.CRBody{
+    background-color: rgb(153, 153, 153, 0.6);
+    border-radius: 10px;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 50px;
+}
+#CRHeading{
+    font-size: 45px;
+    margin: 25px;
+    color: white;
+}
+.CRBody table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.CRBody table td{
+    background-color: rgb(153, 153, 153, 0.8);
+}
+.CRBody table td, .CRBody table th{
+    border: 1px solid white;
+    padding: 12px 8px;
+    text-align: center;
+}

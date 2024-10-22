@@ -1,0 +1,67 @@
+.HomePage{
+    background-color: rgb(48, 48, 48);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HPBody{
+    background-color: rgb(153, 153, 153, 0.6);
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.HPBody h1{
+    font-size: 60px;
+}
+.HPbtn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.HPbtn button{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.HPbtn button:hover{
+    border: 2px solid white;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+
+.verifyDetails{
+    width: 100%;
+    /* background-color: rgba(0, 255, 255, 0.1); */
+    backdrop-filter: blur(6px);
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verifyDetailsBody{
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.verifyDetailsBody h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+#closeForm{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+    cursor: pointer;
+}

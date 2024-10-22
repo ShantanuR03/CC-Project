@@ -1,0 +1,47 @@
+.AHBody{
+    background-color: rgb(153, 153, 153, 0.6);
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AHBody h1{
+    font-size: 50px;
+}
+.AHBody button{
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.AHBody button:hover{
+    border: 2px solid white;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+
+
+
+.startTest{
+    background-color: rgba(215, 215, 215, 0.496);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#starttestbtn{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0;
+}

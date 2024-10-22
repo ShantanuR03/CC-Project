@@ -1,0 +1,41 @@
+.AddUser{
+    background-color: rgb(153, 153, 153, 0.6);
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AddUser h1{
+    font-size: 50px;
+}
+.AUForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.AUForm input{
+    width: 450px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.AUForm button{
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.AUForm button:hover{
+    border: 2px solid white;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
